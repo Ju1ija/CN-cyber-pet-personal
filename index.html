@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Cyber Pet</title>
+  </head>
+
+  <body>
+
+    <section class="choose-pet">
+      <p>choose a pet:</p>
+      <div class="pets">
+        <span>&#128021;</span>
+        <span>&#128008;</span>
+        <span>&#128007;</span>
+        <span>&#128032;</span>
+        <span>&#128034;</span>
+        <span>&#128037;</span>
+        <span>&#128018;</span>
+      </div>
+    </section>
+
+    <section class="toy">
+
+      <div class="screen">
+        <span id="pet">&#128021;</span>
+      </div>
+
+      <div class="buttons">
+        <div><span id="pet-playing">&#129528;</span></div>
+        <div><span id="pet-eating">&#127858;</span></div>
+        <div><span id="pet-drinking">&#128688;</span></div>
+        <div><span id="pet-sleeping">&#128164;</span></div>
+      </div>
+
+    </section>
+
+    <section class="status">
+      <div>
+        <p>mood:</p> <span id="mood">&#128522;</span>
+      </div>
+      <div>
+        <p>happiness:</p> <span id="happy">100%</span>
+      </div>
+      <div>
+        <p>hunger:</p> <span id="hungry">50%</span>
+      </div>
+      <div>
+        <p>thirst:</p> <span id="thirsty">50%</span>
+      </div>
+      <div>
+        <p>tiredness:</p> <span id="tired">50%</span>
+      </div>
+    </section>
+
+    <audio id="bark" src="bark.wav"></audio>
+
+    <script src="app.js"></script>
+
+  </body>
+
+</html>

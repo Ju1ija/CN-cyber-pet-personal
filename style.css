@@ -1,0 +1,111 @@
+body {
+  background-color: #FEEBEC;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+}
+
+.choose-pet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.pets {
+  margin-bottom: 50px;
+}
+
+.pets span {
+  margin: 10px;
+}
+
+.toy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 300px;
+  background-color: #fa5c63;
+  border-radius: 50%;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 140px;
+  height: 140px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+}
+
+#pet {
+  padding-bottom: 20px;
+  font-size: 50px;
+  animation: moveAround 5s linear infinite;
+}
+
+@keyframes moveAround {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(30px, 10px);
+  }
+  50% {
+    transform: translate(0, 0);
+  }
+  75% {
+    transform: translate(-30px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+.buttons {
+  display: flex;
+}
+
+.buttons div {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  margin: 15px 5px 0 5px;
+}
+
+.buttons div:hover {
+  transform: scale(1.1);
+}
+
+.status {
+  font-size: 22px;
+  margin-top: 50px;
+}
+
+.status div {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.status p {
+  margin: 0;
+}
+
+#mood {
+  margin-right: 5px;
+  font-size: 25px;
+}
